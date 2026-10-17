@@ -4,7 +4,7 @@ $LOAD_PATH.push File.expand_path("../lib", __FILE__)
 require 'paperclip_database/version'
 
 Gem::Specification.new do |s|
-  s.name              = "paperclip_database"
+  s.name              = "paperclip_database_myplaceonline"
   s.version           = PaperclipDatabase::VERSION
   s.platform          = Gem::Platform::RUBY
   s.author            = "Jarl Friis"

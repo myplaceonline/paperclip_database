@@ -124,3 +124,14 @@ Copyright
 
 Copyright (c) 2012 Jarl Friis. See LICENSE.txt for
 further details.
+
+Build
+-----
+
+```
+rm *gem
+Update version in lib/paperclip_database/version.rb
+gem build paperclip_database.gemspec
+gem push *gem
+```
+
