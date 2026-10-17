@@ -197,7 +197,7 @@ module Paperclip
             case ActiveModel::VERSION::MAJOR
             when 3
               paperclip_file = instance.send(@paperclip_files_association_name).send(:find_or_create_by_style, style.to_s)
-            when 4,5,6
+            when 4,5,6,7,8
               paperclip_file = instance.send(@paperclip_files_association_name).send(:find_or_create_by, style: style.to_s)
             else
               raise "ActiveModel version #{ActiveModel::VERSION::STRING} is not supported (yet)"
